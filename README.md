@@ -44,7 +44,7 @@ the map file looks like:
 Webots ROS2 package
 
 ## Documentation
-If you're interested in understanding the details, please read my post [here](TBD)
+If you're interested in understanding the details, please read my post [here](https://towardsdatascience.com/occupancy-grid-mapping-with-webots-and-ros2-a6162a644fab)
 
 ## Issues
 Please report issues if you found bugs or raise a Pull Request.
