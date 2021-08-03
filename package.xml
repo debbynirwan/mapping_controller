@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>mapping_controller</name>
+  <version>0.0.1</version>
+  <description>Mapping Controller for epuck on Webots Simulator</description>
+  <maintainer email="debby_nirwan@yahoo.com">Debby Nirwan</maintainer>
+  <license>Apache License 2.0</license>
+  
+  <exec_depend>rclpy</exec_depend>
+  <exec_depend>geometry_msgs</exec_depend>
+  <exec_depend>sensor_msgs</exec_depend>
+  <exec_depend>python3-opencv</exec_depend>
+  <exec_depend>python-numpy</exec_depend>
+  <exec_depend>python3-scipy</exec_depend>
+  <exec_depend>webots_ros2</exec_depend>
+
+  <test_depend>ament_copyright</test_depend>
+  <test_depend>ament_flake8</test_depend>
+  <test_depend>ament_pep257</test_depend>
+  <test_depend>python3-pytest</test_depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>

@@ -1,0 +1,5 @@
+linear_speed: 0.1
+angular_speed: 15
+rotation_in_second: 6
+object_distance: 0.05
+object_angle: 90
