@@ -35,6 +35,11 @@ By default the map is saved at home directory, to change it use path parameter.
 ros2 launch mapping_controller mapping_controller_launch.py probability:=true rviz:=true mapping_time:=3 path:=path:="/home/$USER/Documents"
 ```
 
+### Map File Example
+the map file looks like:
+
+![alt text](resource/prob_map.png)
+
 ## Dependencies
 Webots ROS2 package
 
